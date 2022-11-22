@@ -1,3 +1,10 @@
-<?php
-echo "Ongoing Development"
-?>
+<!DOCTYPE html>
+<html>
+    <body>
+
+    <?php
+    echo "Ongoing Development"
+    ?>
+
+    </body>
+</html>
