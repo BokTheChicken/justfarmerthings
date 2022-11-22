@@ -3,7 +3,7 @@
     <body>
 
     <?php
-    echo "Ongoing Development"
+    echo "Ongoing Development";
     ?>
 
     </body>
