@@ -7,7 +7,7 @@ import ImageContent from './image-content'
 /* CSS */
 import './App.css'
 
-const App = () => {
+function App() {
     return (
         <div className = "app-main" >
             <Header />
