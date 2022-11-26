@@ -1,21 +1,17 @@
-import React from 'react'
-
-import Header from './header'
-import Content from './content'
-import ImageContent from './image-content'
-
-/* CSS */
-import './App.css'
+import './App.css';
+import Header from './header';
+import Content from './content';
+import Footer from './footer';
+import NavBar from './navbar';
 
 function App() {
-    return (
-        <div className = "app-main" >
-            <Header />
-            <ImageContent />
-            <Content />
-        </div>
-    )
-
+  return (
+    <div className="">
+      <NavBar />
+      <Content />
+     
+    </div>
+  );
 }
 
-export default App
+export default App;

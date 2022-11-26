@@ -1,15 +1,11 @@
 import React from 'react'
 
-/* CSS */
-import './App.css'
-
 const Header = () => {
     return (
-        <div className = "header" >
+        <div className = "font-bold bg-black text-white " >
             <center>Horse</center>
         </div>
     )
 
 }
-
 export default Header
