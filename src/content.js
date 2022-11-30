@@ -2,18 +2,26 @@ import React from 'react'
 
 const Content = () => {
     return (
-        
-        <div className = "Content" >
-            <center>
-            <img src="https://eventingguide.com/wp-content/uploads/2021/06/funniest-horse-names.png" alt="Horze"></img>
-            </center>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar nisi a finibus convallis. Nullam felis orci, dapibus quis feugiat quis, pellentesque eget lacus. Pellentesque a turpis condimentum, fringilla lorem non, ornare mi. Nulla mi ligula, ornare id magna at, volutpat tincidunt nulla. Integer suscipit orci sed velit venenatis accumsan. Aliquam erat volutpat. Nam ac augue at est commodo finibus. Pellentesque tristique sollicitudin imperdiet. Duis ullamcorper fringilla rhoncus. In hac habitasse platea dictumst. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed volutpat ante nec velit maximus viverra. Quisque interdum mi eleifend augue dapibus maximus.
 
-Duis lacinia venenatis sapien, eu facilisis nulla iaculis quis. Etiam libero lectus, efficitur id leo euismod, tincidunt porta ligula. Integer vel urna nec lacus cursus imperdiet eget sed magna. Praesent tortor arcu, lobortis sed elit et, ornare vestibulum sem. Fusce vehicula, augue nec hendrerit placerat, metus lectus tempor nulla, at efficitur est sem non quam. Nulla facilisi. Donec sit amet est eu nisl placerat tincidunt at eu justo. Donec sollicitudin condimentum arcu, sit amet dignissim tortor luctus eu. Vestibulum pretium risus sed libero vestibulum pulvinar. Aliquam dictum elit elit, nec dignissim turpis tempor ac.</p>
+        <div className="container mx-auto flex flex-wrap items-start my-16" >
+            <div className="lg:w-1/4 w-full lg:pr-3">
+                <div className="bg-gray-200 rounded-xl relative">
+                    <div className="absolute top-0 left-0 right-0 bottom-0 w-full h-full z-10 bg-gradient-to-b from-transparent to-black rounded-b-xl"></div>
+                <img src="https://eventingguide.com/wp-content/uploads/2021/06/funniest-horse-names.png" alt="Horze" className="object-cover h-96 w-full rounded-xl"></img>
+                    <div className="p-6 absolute bottom-0 left-0 z-20">
+                        <h2 class="text-gray-300 text-2xl font-bold mb-2">Horze</h2>
+                        <div className="text-gray-300 leading-relaxed mb-6">
+                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar nisi a finibus convallis. Nullam felis orci, dapibus quis feugiat quis, pellentesque eget lacus. 
+                        </div>
+                    </div> 
+                </div>
+            </div>
         </div>
-        
+
     )
 
 }
-
+// API ID 1FUjQroXZuzVik1zTf3q0Yd6R22-ShI88QPqjKjan_ts
+// spreadsheet.google.com/feeds/cells/{sheetID}/{pagenumber}/public/full?json
+// spreadsheet.google.com/feeds/cells/1FUjQroXZuzVik1zTf3q0Yd6R22-ShI88QPqjKjan_ts/1/public/full?json
 export default Content
