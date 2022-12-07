@@ -1,19 +1,29 @@
-import React from 'react'
+import React, { Component }from 'react'
 
-const Content = () => {
-    return (
-
-        <div class="container my-12 mx-auto px-4 md:px-12 bg-gray-100 shadow-md rounded-md" >
-                <div class="m-2">
-                        <img src="https://eventingguide.com/wp-content/uploads/2021/06/funniest-horse-names.png" alt="Horze" class="block"></img>
-                        <h2 class="text-black text-2xl font-bold mb-2 relative">Horze</h2>
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar nisi a finibus convallis. Nullam felis orci, dapibus quis feugiat quis, pellentesque eget lacus. 
+class Content extends Component 
+{
+    constructor(props) {
+        super(props);
+    }
+    render() {
+        return (
+            <div class="container flex items-center justify-center w-auto mx-auto my-0 md:px-12" >
+                <div class="rounded-xl shadow-lg bg-white my-2 w-full">
+                    <div class="p-5">
+                        <center>
+                        <img src={this.props.imageurl} class="justify-center items-center"></img>
+                        </center>   
+                            <h2 class="block text-black text-2xl font-bold mb-2 ">{this.props.contenttitle}</h2>
+                            <p class="text-slate-500 text-lg mt-3">{this.props.contentdescription}</p>
+                    </div>
                 </div>
-        </div>
+            </div>
+        
 
-    )
-
+        )
+    }
 }
+
 // API ID 1FUjQroXZuzVik1zTf3q0Yd6R22-ShI88QPqjKjan_ts
 // spreadsheet.google.com/feeds/cells/{sheetID}/{pagenumber}/public/full?json
 // spreadsheet.google.com/feeds/cells/1FUjQroXZuzVik1zTf3q0Yd6R22-ShI88QPqjKjan_ts/1/public/full?json
