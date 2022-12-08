@@ -1,6 +1,7 @@
 import './App.css';
 import Content from './content';
 import Header from './header';
+import ApiCall from './apicall';
 
 function App() {
   return (
@@ -8,7 +9,6 @@ function App() {
       
       <Header />
 
-    
       <Content contenttitle="Chimken" imageurl="https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/8/2021/03/GettyImages-1222034813-920x613.jpg" contentdescription="bokbokbok bokok" />
 
       <Content contenttitle="Duck" imageurl="http://img0.joyreactor.com/pics/post/full/funny-pictures-ducks-animals-6827115.jpeg" contentdescription="quack quack madafak" />
@@ -20,9 +20,7 @@ function App() {
       <Content contenttitle="" imageurl="" contentdescription=""/>
       <Content contenttitle="" imageurl="" contentdescription=""/>
 
-
     </div>
   );
 }
-
 export default App;
