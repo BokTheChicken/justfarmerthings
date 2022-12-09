@@ -27,7 +27,7 @@ export default function Header() {
   };
 
     return (
-      <div className="bg-emerald-500 mb-3 w-auto h-auto relative ">
+      <div className="sticky top-0 z-50 bg-emerald-500 mb-3 ">
         <a
         className=" mx-8 lg:text-2xl font-mono font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap text-white sm:text- "
         href="#placelinkhere">
