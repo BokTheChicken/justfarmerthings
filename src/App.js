@@ -5,7 +5,7 @@ import ApiCall from './apicall';
 
 function App() {
   return (
-    <div class="bg-gray-300">
+    <div class="bg-gray-300 dark:bg-black">
       
       <Header />
 
