@@ -6,7 +6,7 @@ import ApiCall from './apicall';
 function App() {
   return (
     <div class="bg-gray-300 dark:bg-black">
-      
+      <ApiCall />
       <Header />
 
       <Content contenttitle="Chimken" imageurl="https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/8/2021/03/GettyImages-1222034813-920x613.jpg" contentdescription="bokbokbok bokok" />
